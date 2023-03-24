@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html {
+    height:100%
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+}
+
+.header {
+    background-color: aquamarine;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+.content{
+    height: 70%;
+    display:flex;
+    justify-content: space-betwwen;
+    align-items: center;
+    padding: 1rem;
+}
+.left-content{
+    width: 45%;
+
+}
+.right-content{
+    width:45%;
+
+}
+.image{
+    height:100%;
+    width:50%;
+}
